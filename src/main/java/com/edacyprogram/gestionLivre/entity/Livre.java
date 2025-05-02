@@ -14,6 +14,12 @@ public class Livre {
     private Long id;
     private String titre;
     private String auteur;
+    private String description;
+    private String genre;
+    private String isbn;
+    private String urlImage;
+
+    @Temporal(TemporalType.DATE)
     private Date datePublication;
 
 }
